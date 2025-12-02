@@ -2,100 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on Rafa o Cunha</title>
-    <link>http://localhost:1313/</link>
+    <link>https://rafael-o-cunha.dev/</link>
     <description>Recent content in Home on Rafa o Cunha</description>
     <generator>Hugo -- 0.146.4</generator>
     <language>pt-br</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rafael-o-cunha.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/insights/item-1/</link>
+      <link>https://rafael-o-cunha.dev/insights/item-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights/item-1/</guid>
+      <guid>https://rafael-o-cunha.dev/insights/item-1/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/insights/item-2/</link>
+      <link>https://rafael-o-cunha.dev/insights/item-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights/item-2/</guid>
+      <guid>https://rafael-o-cunha.dev/insights/item-2/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/insights/item-3/</link>
+      <link>https://rafael-o-cunha.dev/insights/item-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights/item-3/</guid>
+      <guid>https://rafael-o-cunha.dev/insights/item-3/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/insights/item-4/</link>
+      <link>https://rafael-o-cunha.dev/insights/item-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights/item-4/</guid>
+      <guid>https://rafael-o-cunha.dev/insights/item-4/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/insights/item-5/</link>
+      <link>https://rafael-o-cunha.dev/insights/item-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights/item-5/</guid>
+      <guid>https://rafael-o-cunha.dev/insights/item-5/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/insights/item-6-copy/</link>
+      <link>https://rafael-o-cunha.dev/insights/item-6-copy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights/item-6-copy/</guid>
+      <guid>https://rafael-o-cunha.dev/insights/item-6-copy/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/insights/item-6/</link>
+      <link>https://rafael-o-cunha.dev/insights/item-6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights/item-6/</guid>
+      <guid>https://rafael-o-cunha.dev/insights/item-6/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/projects/item-1/</link>
+      <link>https://rafael-o-cunha.dev/projects/item-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/item-1/</guid>
+      <guid>https://rafael-o-cunha.dev/projects/item-1/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/projects/item-2/</link>
+      <link>https://rafael-o-cunha.dev/projects/item-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/item-2/</guid>
+      <guid>https://rafael-o-cunha.dev/projects/item-2/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/rnd-notes/item-1/</link>
+      <link>https://rafael-o-cunha.dev/rnd-notes/item-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/rnd-notes/item-1/</guid>
+      <guid>https://rafael-o-cunha.dev/rnd-notes/item-1/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/rnd-notes/item-2/</link>
+      <link>https://rafael-o-cunha.dev/rnd-notes/item-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/rnd-notes/item-2/</guid>
+      <guid>https://rafael-o-cunha.dev/rnd-notes/item-2/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/rnd-notes/item-3/</link>
+      <link>https://rafael-o-cunha.dev/rnd-notes/item-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/rnd-notes/item-3/</guid>
+      <guid>https://rafael-o-cunha.dev/rnd-notes/item-3/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>ola mundo</title>
-      <link>http://localhost:1313/projects/tst/</link>
+      <link>https://rafael-o-cunha.dev/projects/tst/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/tst/</guid>
+      <guid>https://rafael-o-cunha.dev/projects/tst/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
   </channel>

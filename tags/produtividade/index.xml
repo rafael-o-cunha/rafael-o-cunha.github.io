@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Produtividade on Rafa o Cunha</title>
-    <link>http://localhost:1313/tags/produtividade/</link>
+    <link>https://rafael-o-cunha.dev/tags/produtividade/</link>
     <description>Recent content in Produtividade on Rafa o Cunha</description>
     <generator>Hugo -- 0.146.4</generator>
     <language>pt-br</language>
-    <atom:link href="http://localhost:1313/tags/produtividade/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rafael-o-cunha.dev/tags/produtividade/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/insights/item-2/</link>
+      <link>https://rafael-o-cunha.dev/insights/item-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights/item-2/</guid>
+      <guid>https://rafael-o-cunha.dev/insights/item-2/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/projects/item-2/</link>
+      <link>https://rafael-o-cunha.dev/projects/item-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/item-2/</guid>
+      <guid>https://rafael-o-cunha.dev/projects/item-2/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>Ferramenta X recomendada</title>
-      <link>http://localhost:1313/rnd-notes/item-2/</link>
+      <link>https://rafael-o-cunha.dev/rnd-notes/item-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/rnd-notes/item-2/</guid>
+      <guid>https://rafael-o-cunha.dev/rnd-notes/item-2/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
     <item>
       <title>ola mundo</title>
-      <link>http://localhost:1313/projects/tst/</link>
+      <link>https://rafael-o-cunha.dev/projects/tst/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/tst/</guid>
+      <guid>https://rafael-o-cunha.dev/projects/tst/</guid>
       <description>Uma descoberta útil para designers, devs, startups e inovadores</description>
     </item>
   </channel>
