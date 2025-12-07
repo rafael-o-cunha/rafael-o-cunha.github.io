@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>📝 Tasks API – Projeto de Estudos em Spring Boot | Rafa o Cunha</title>
+<meta name="keywords" content="Pratica, Projeto, API, Java, Springboot">
+<meta name="description" content="API REST simples para gerenciamento de tarefas">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projects/api-pratica-springboot-tasks/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/api-pratica-springboot-tasks/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><link rel="stylesheet" href="assets/css/custom.css"><meta property="og:url" content="http://localhost:1313/projects/api-pratica-springboot-tasks/">
+  <meta property="og:site_name" content="Rafa o Cunha">
+  <meta property="og:title" content="📝 Tasks API – Projeto de Estudos em Spring Boot">
+  <meta property="og:description" content="API REST simples para gerenciamento de tarefas">
+  <meta property="og:locale" content="pt-br">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:tag" content="Pratica">
+    <meta property="article:tag" content="Projeto">
+    <meta property="article:tag" content="API">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="Springboot">
+    <meta property="og:image" content="http://localhost:1313/cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/cover.png">
+<meta name="twitter:title" content="📝 Tasks API – Projeto de Estudos em Spring Boot">
+<meta name="twitter:description" content="API REST simples para gerenciamento de tarefas">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "http://localhost:1313/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "📝 Tasks API – Projeto de Estudos em Spring Boot",
+      "item": "http://localhost:1313/projects/api-pratica-springboot-tasks/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "📝 Tasks API – Projeto de Estudos em Spring Boot",
+  "name": "📝 Tasks API – Projeto de Estudos em Spring Boot",
+  "description": "API REST simples para gerenciamento de tarefas",
+  "keywords": [
+    "Pratica", "Projeto", "API", "Java", "Springboot"
+  ],
+  "articleBody": "Este repositório contém uma API REST simples para gerenciamento de tarefas (ToDo List), desenvolvida com Java 17 e Spring Boot.\nO projeto foi criado com foco em prática, exploração de configurações e refinamento de ambiente de desenvolvimento, incluindo execução com Docker, automações com Makefile, documentação com Swagger, além da aplicação de boas práticas de arquitetura.\nApesar de ser um projeto de estudo, foi estruturado para que sirva como base para práticas, experimentações e evolução contínua.\n🚀 Tecnologias Utilizadas Java 17 Spring Boot 3 (Web, Data JPA) Spring Data JPA H2 Database Springdoc OpenAPI (Swagger UI) Lombok Maven Docker + Makefile JUnit (Spring Boot Test) Arquitetura em camadas:\ncontroller/ – camadas de entrada service/ – regras de negócio repository/ – persistência model/ – entidades doc/ – configuração Swagger 📂 Estrutura do Projeto src/ ├── main/ │ ├── java/com/big/tasks/ │ │ ├── controller/ # Endpoints REST │ │ ├── service/ # Regras de negócio │ │ ├── repository/ # CRUD JPA │ │ ├── model/ # Entidades │ │ ├── doc/ # Config OpenAPI/Swagger │ │ └── TasksApplication.java │ └── resources/ │ ├── application.properties │ ├── static/ │ └── templates/ └── test/ └── java/com/big/tasks/ └── TasksApplicationTests.java 🐳 Executando com Docker + Makefile Este projeto utiliza um Dockerfile preparado para desenvolvimento, mantendo o código no host e dependências/cache dentro da imagem.\nO Makefile automatiza build, execução, reload, limpeza e entrada no container.\n🔨 Build da imagem Docker make build ▶️ Subir o container em modo interativo (debug) make run-it 🚀 Executar a aplicação dentro do container make load 🛑 Parar somente a aplicação (processos Java) make stop 🧹 Parar e remover o container make down 🔨 Build da imagem Docker make build 🧨 Remover container + imagem make fclean 🔁 Pipeline completo (recomendado): make deep-run ▶️ Rodando Sem Docker (opcional) Build: mvn clean install Executar: mvn spring-boot:run 📘 Endpoints Disponíveis Método Endpoint Descrição POST /tasks Criar uma nova Task GET /tasks Listar todas as Tasks GET /tasks/{id} Buscar Task por ID PUT /tasks/{id} Atualizar Task DELETE /tasks/{id} Remover Task URL base para as rotas: http://localhost:8080/api/v1 Acessar Swagger UI: http://localhost:8080/swagger-ui/index.html 🧱 Exemplo de Entidade Task { \"id\": 1, \"title\": \"Estudar Spring Boot\", \"description\": \"Praticar criação de APIs REST\", \"deadLine\": \"2025-12-06T23:46:11.926Z\", \"createdAt\": \"2025-12-06T23:46:11.926Z\", \"updatedAt\": \"2025-12-06T23:46:11.926Z\" } 🎯 Conhecimentos Praticados Criação de APIs REST com Spring Boot Uso de Spring Data JPA Ambientes de desenvolvimento com H2 Documentação automática com Swagger/OpenAPI Arquitetura MVC / camadas (Controller → Service → Repository) Organização e build com Maven Execução e desenvolvimento com Docker Automação via Makefile 🔧 Próximos Passos / Melhorias\nHot Reload com Spring DevTools + Docker → objetivo: alterar código no host e executar automaticamente dentro do container 📂 Repositório do Projeto Tasks no Github\n",
+  "wordCount" : "448",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/cover.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/projects/api-pratica-springboot-tasks/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rafa o Cunha",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Rafa o Cunha (Alt + H)">Rafa o Cunha</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rnd-notes/" title="R&amp;D Notes">
+                    <span>R&amp;D Notes</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/insights/" title="Insights">
+                    <span>Insights</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      📝 Tasks API – Projeto de Estudos em Spring Boot
+    </h1>
+    <div class="post-description">
+      API REST simples para gerenciamento de tarefas
+    </div>
+    <div class="post-meta"><span>3 min</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='http://localhost:1313/projects/api-pratica-springboot-tasks/cover_hu_ea27898defdf34c3.png 360w,http://localhost:1313/projects/api-pratica-springboot-tasks/cover_hu_621c38adc6bfabd6.png 480w,http://localhost:1313/projects/api-pratica-springboot-tasks/cover_hu_7c767fc1ce20519b.png 720w,http://localhost:1313/projects/api-pratica-springboot-tasks/cover_hu_cdd39c6d13a7f6d9.png 1080w,http://localhost:1313/projects/api-pratica-springboot-tasks/cover_hu_3d4c31e49203cc87.png 1500w,http://localhost:1313/projects/api-pratica-springboot-tasks/cover.png 1536w'
+                src="http://localhost:1313/projects/api-pratica-springboot-tasks/cover.png"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1536" height="1024"
+                alt="">
+        
+</figure>
+  <div class="post-content"><p>Este repositório contém uma API REST simples para gerenciamento de tarefas (<strong>ToDo List</strong>), desenvolvida com <strong>Java 17</strong> e <strong>Spring Boot</strong>.</p>
+<p>O projeto foi criado com foco em <strong>prática</strong>, <strong>exploração de configurações</strong> e <strong>refinamento de ambiente de desenvolvimento</strong>, incluindo execução com <strong>Docker</strong>, automações com <strong>Makefile</strong>, documentação com <strong>Swagger</strong>, além da aplicação de boas práticas de arquitetura.</p>
+<p>Apesar de ser um projeto de estudo, foi estruturado para que sirva como base para práticas, experimentações e evolução contínua.</p>
+<hr>
+<h2 id="-tecnologias-utilizadas">🚀 Tecnologias Utilizadas<a hidden class="anchor" aria-hidden="true" href="#-tecnologias-utilizadas">#</a></h2>
+<ul>
+<li><strong>Java 17</strong></li>
+<li><strong>Spring Boot 3 (Web, Data JPA)</strong></li>
+<li><strong>Spring Data JPA</strong></li>
+<li><strong>H2 Database</strong></li>
+<li><strong>Springdoc OpenAPI (Swagger UI)</strong></li>
+<li><strong>Lombok</strong></li>
+<li><strong>Maven</strong></li>
+<li><strong>Docker + Makefile</strong></li>
+<li><strong>JUnit (Spring Boot Test)</strong></li>
+</ul>
+<p>Arquitetura em camadas:</p>
+<ul>
+<li><code>controller/</code> – camadas de entrada</li>
+<li><code>service/</code> – regras de negócio</li>
+<li><code>repository/</code> – persistência</li>
+<li><code>model/</code> – entidades</li>
+<li><code>doc/</code> – configuração Swagger</li>
+</ul>
+<hr>
+<h2 id="-estrutura-do-projeto">📂 Estrutura do Projeto<a hidden class="anchor" aria-hidden="true" href="#-estrutura-do-projeto">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>src/
+</span></span><span style="display:flex;"><span>├── main/
+</span></span><span style="display:flex;"><span>│   ├── java/com/big/tasks/
+</span></span><span style="display:flex;"><span>│   │   ├── controller/        # Endpoints REST
+</span></span><span style="display:flex;"><span>│   │   ├── service/           # Regras de negócio
+</span></span><span style="display:flex;"><span>│   │   ├── repository/        # CRUD JPA
+</span></span><span style="display:flex;"><span>│   │   ├── model/             # Entidades
+</span></span><span style="display:flex;"><span>│   │   ├── doc/               # Config OpenAPI/Swagger
+</span></span><span style="display:flex;"><span>│   │   └── TasksApplication.java
+</span></span><span style="display:flex;"><span>│   └── resources/
+</span></span><span style="display:flex;"><span>│       ├── application.properties
+</span></span><span style="display:flex;"><span>│       ├── static/
+</span></span><span style="display:flex;"><span>│       └── templates/
+</span></span><span style="display:flex;"><span>└── test/
+</span></span><span style="display:flex;"><span>    └── java/com/big/tasks/
+</span></span><span style="display:flex;"><span>        └── TasksApplicationTests.java
+</span></span></code></pre></div><h2 id="-executando-com-docker--makefile">🐳 Executando com Docker + Makefile<a hidden class="anchor" aria-hidden="true" href="#-executando-com-docker--makefile">#</a></h2>
+<p>Este projeto utiliza um Dockerfile preparado para desenvolvimento, mantendo o código no host e dependências/cache dentro da imagem.</p>
+<p>O Makefile automatiza build, execução, reload, limpeza e entrada no container.</p>
+<h3 id="-build-da-imagem-docker">🔨 Build da imagem Docker<a hidden class="anchor" aria-hidden="true" href="#-build-da-imagem-docker">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make build
+</span></span></code></pre></div><h3 id="-subir-o-container-em-modo-interativo-debug">▶️ Subir o container em modo interativo (debug)<a hidden class="anchor" aria-hidden="true" href="#-subir-o-container-em-modo-interativo-debug">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make run-it
+</span></span></code></pre></div><h3 id="-executar-a-aplicação-dentro-do-container">🚀 Executar a aplicação dentro do container<a hidden class="anchor" aria-hidden="true" href="#-executar-a-aplicação-dentro-do-container">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make load
+</span></span></code></pre></div><h3 id="-parar-somente-a-aplicação-processos-java">🛑 Parar somente a aplicação (processos Java)<a hidden class="anchor" aria-hidden="true" href="#-parar-somente-a-aplicação-processos-java">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make stop
+</span></span></code></pre></div><h3 id="-parar-e-remover-o-container">🧹 Parar e remover o container<a hidden class="anchor" aria-hidden="true" href="#-parar-e-remover-o-container">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make down
+</span></span></code></pre></div><h3 id="-build-da-imagem-docker-1">🔨 Build da imagem Docker<a hidden class="anchor" aria-hidden="true" href="#-build-da-imagem-docker-1">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make build
+</span></span></code></pre></div><h3 id="-remover-container--imagem">🧨 Remover container + imagem<a hidden class="anchor" aria-hidden="true" href="#-remover-container--imagem">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make fclean
+</span></span></code></pre></div><h3 id="-pipeline-completo-recomendado">🔁 Pipeline completo (recomendado):<a hidden class="anchor" aria-hidden="true" href="#-pipeline-completo-recomendado">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make deep-run
+</span></span></code></pre></div><h2 id="-rodando-sem-docker-opcional">▶️ Rodando Sem Docker (opcional)<a hidden class="anchor" aria-hidden="true" href="#-rodando-sem-docker-opcional">#</a></h2>
+<h3 id="build">Build:<a hidden class="anchor" aria-hidden="true" href="#build">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mvn clean install
+</span></span></code></pre></div><h3 id="executar">Executar:<a hidden class="anchor" aria-hidden="true" href="#executar">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mvn spring-boot:run
+</span></span></code></pre></div><h2 id="-endpoints-disponíveis">📘 Endpoints Disponíveis<a hidden class="anchor" aria-hidden="true" href="#-endpoints-disponíveis">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Método</th>
+          <th>Endpoint</th>
+          <th>Descrição</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>POST</td>
+          <td><code>/tasks</code></td>
+          <td>Criar uma nova Task</td>
+      </tr>
+      <tr>
+          <td>GET</td>
+          <td><code>/tasks</code></td>
+          <td>Listar todas as Tasks</td>
+      </tr>
+      <tr>
+          <td>GET</td>
+          <td><code>/tasks/{id}</code></td>
+          <td>Buscar Task por ID</td>
+      </tr>
+      <tr>
+          <td>PUT</td>
+          <td><code>/tasks/{id}</code></td>
+          <td>Atualizar Task</td>
+      </tr>
+      <tr>
+          <td>DELETE</td>
+          <td><code>/tasks/{id}</code></td>
+          <td>Remover Task</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="url-base-para-as-rotas">URL base para as rotas:<a hidden class="anchor" aria-hidden="true" href="#url-base-para-as-rotas">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>http://localhost:8080/api/v1
+</span></span></code></pre></div><h2 id="acessar-swagger-ui">Acessar Swagger UI:<a hidden class="anchor" aria-hidden="true" href="#acessar-swagger-ui">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>http://localhost:8080/swagger-ui/index.html
+</span></span></code></pre></div><h2 id="-exemplo-de-entidade-task">🧱 Exemplo de Entidade Task<a hidden class="anchor" aria-hidden="true" href="#-exemplo-de-entidade-task">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;id&#34;</span>: <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;title&#34;</span>: <span style="color:#e6db74">&#34;Estudar Spring Boot&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Praticar criação de APIs REST&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;deadLine&#34;</span>: <span style="color:#e6db74">&#34;2025-12-06T23:46:11.926Z&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;createdAt&#34;</span>: <span style="color:#e6db74">&#34;2025-12-06T23:46:11.926Z&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;updatedAt&#34;</span>: <span style="color:#e6db74">&#34;2025-12-06T23:46:11.926Z&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="-conhecimentos-praticados">🎯 Conhecimentos Praticados<a hidden class="anchor" aria-hidden="true" href="#-conhecimentos-praticados">#</a></h2>
+<ul>
+<li>Criação de APIs REST com Spring Boot</li>
+<li>Uso de Spring Data JPA</li>
+<li>Ambientes de desenvolvimento com H2</li>
+<li>Documentação automática com Swagger/OpenAPI</li>
+<li>Arquitetura MVC / camadas (Controller → Service → Repository)</li>
+<li>Organização e build com Maven</li>
+<li>Execução e desenvolvimento com Docker</li>
+<li>Automação via Makefile</li>
+</ul>
+<p>🔧 Próximos Passos / Melhorias</p>
+<ul>
+<li>Hot Reload com Spring DevTools + Docker
+→ objetivo: alterar código no host e executar automaticamente dentro do container</li>
+</ul>
+<hr>
+<h2 id="-repositório-do-projeto">📂 Repositório do Projeto<a hidden class="anchor" aria-hidden="true" href="#-repositório-do-projeto">#</a></h2>
+<p><a href="https://github.com/rafael-o-cunha/tasks">Tasks no Github</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/pratica/">Pratica</a></li>
+      <li><a href="http://localhost:1313/tags/projeto/">Projeto</a></li>
+      <li><a href="http://localhost:1313/tags/api/">API</a></li>
+      <li><a href="http://localhost:1313/tags/java/">Java</a></li>
+      <li><a href="http://localhost:1313/tags/springboot/">Springboot</a></li>
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Rafa o Cunha</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
