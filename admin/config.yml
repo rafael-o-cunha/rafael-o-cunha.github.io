@@ -1,0 +1,110 @@
+backend:
+  name: github
+  repo: rafael-o-cunha/rafael-hub
+  branch: main
+
+publish_mode: editorial_workflow
+
+media_folder: ""
+public_folder: ""
+
+collections:
+
+  # =========================
+  # 🧠 INSIGHTS
+  # =========================
+  - name: "insights"
+    label: "Insights"
+    label_singular: "Insight"
+    folder: "content/insights"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    editor:
+      preview: true
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+
+      - { label: "Descrição", name: "description", widget: "string" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: true
+
+      - label: "Capa"
+        name: "cover"
+        widget: "object"
+        fields:
+          - { label: "Imagem", name: "image", widget: "image", required: false }
+          - { label: "Ocultar capa", name: "hidden", widget: "boolean", default: false }
+
+      - { label: "Data", name: "date", widget: "date" }
+
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
+
+  # =========================
+  # 🚀 PROJETOS
+  # =========================
+  - name: "projects"
+    label: "Projetos"
+    label_singular: "Projeto"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    editor:
+      preview: true
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+
+      - { label: "Descrição", name: "description", widget: "string" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: true
+
+      - label: "Capa"
+        name: "cover"
+        widget: "object"
+        fields:
+          - { label: "Imagem", name: "image", widget: "image" }
+          - { label: "Ocultar capa", name: "hidden", widget: "boolean", default: false }
+
+      - { label: "Data", name: "date", widget: "date" }
+
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
+
+  # =========================
+  # 🧪 R&D / P&D NOTES
+  # =========================
+  - name: "rnd-notes"
+    label: "R&D Notes"
+    label_singular: "R&D Note"
+    folder: "content/rnd-notes"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    editor:
+      preview: true
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+
+      - { label: "Descrição", name: "description", widget: "string" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: true
+
+      - label: "Capa"
+        name: "cover"
+        widget: "object"
+        fields:
+          - { label: "Imagem", name: "image", widget: "image" }
+          - { label: "Ocultar capa", name: "hidden", widget: "boolean", default: false }
+
+      - { label: "Data", name: "date", widget: "date" }
+
+      - { label: "Conteúdo", name: "body", widget: "markdown" }

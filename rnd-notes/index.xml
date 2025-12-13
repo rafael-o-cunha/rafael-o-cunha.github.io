@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>R&amp;D Notes on Rafa o Cunha</title><link>https://rafael-o-cunha.github.io/rnd-notes/</link><description>Recent content in R&amp;D Notes on Rafa o Cunha</description><generator>Hugo -- 0.146.4</generator><language>pt-br</language><lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://rafael-o-cunha.github.io/rnd-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>🧑‍💻 Experimento: Como criei um GitHub Action para publicar meu Site estático em outro repositório.</title><link>https://rafael-o-cunha.github.io/rnd-notes/github-actions-01/</link><pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate><guid>https://rafael-o-cunha.github.io/rnd-notes/github-actions-01/</guid><description>Meu primeiro fluxo CI/CD: do deploy manual ao automatizado.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>R&amp;D Notes on Rafa o Cunha</title>
+    <link>http://localhost:1313/rnd-notes/</link>
+    <description>Recent content in R&amp;D Notes on Rafa o Cunha</description>
+    <generator>Hugo -- 0.146.4</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/rnd-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🧑‍💻 Experimento: Como criei um GitHub Action para publicar meu Site estático em outro repositório.</title>
+      <link>http://localhost:1313/rnd-notes/github-actions-01/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rnd-notes/github-actions-01/</guid>
+      <description>Meu primeiro fluxo CI/CD: do deploy manual ao automatizado.</description>
+    </item>
+  </channel>
+</rss>
