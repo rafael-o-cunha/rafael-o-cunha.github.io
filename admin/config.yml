@@ -2,6 +2,7 @@ backend:
   name: github
   repo: rafael-o-cunha/rafael-hub
   branch: main
+  site_domain: rafael-o-cunha.dev
 
 publish_mode: editorial_workflow
 
