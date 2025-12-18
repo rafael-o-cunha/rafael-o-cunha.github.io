@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: rafael-o-cunha/rafael-o-cunha.github.io
+  repo: rafael-o-cunha/rafael-hub
   branch: main
 
 publish_mode: editorial_workflow
